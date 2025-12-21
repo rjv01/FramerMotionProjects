@@ -4,19 +4,52 @@ function Home() {
   const links = [
     { href: "/subscribe", label: "Subscribe Button" },
     { href: "/card", label: "Cards Component" },
+    { href: "/sidebar", label: "Sidebar Component" },
+    { href: "/sidebar", label: "Sidebar Component" },
+    { href: "/sidebar", label: "Sidebar Component" },
+    { href: "/sidebar", label: "Sidebar Component" },
+    { href: "/sidebar", label: "Sidebar Component" },
+    { href: "/sidebar", label: "Sidebar Component" },
+    { href: "/sidebar", label: "Sidebar Component" },
   ];
 
+  const containerVariants = {
+    hidden:{
+      opacity:0,
+    },
+    show:{
+      opacity:1,
+      transition:{
+        staggerChildren:0.2,
+      }
+    }
+  };
+
+  const itemVariants = {
+    hidden:{
+      opacity:0,
+    },
+    show:{
+      opacity:1,
+      y:-20
+    }
+  }
   return (
     <div className="min-h-screen flex flex-col items-center bg-neutral-900">
-      <h1 className="text-4xl text-green-400 mt-8">
+      <h1 className="text-4xl text-green-400 m-6">
         Welcome to the Home Page
       </h1>
 
-      <div
+      <motion.div
+        variants={containerVariants}
+        initial="hidden"
+        animate="show"
+        exit="hidden"
         className="font-mono grid grid-cols-3 gap-10 m-6 text-white text-2xl"
       >
         {links.map((link, i) => (
           <motion.a
+            variants={itemVariants}
             key={i}
             href={link.href}
             whileHover={{ scale: 1.05 }}
@@ -26,7 +59,7 @@ function Home() {
             {link.label}
           </motion.a>
         ))}
-      </div>
+      </motion.div>
     </div>
   );
 }
