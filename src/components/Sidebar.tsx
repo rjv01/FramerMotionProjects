@@ -38,7 +38,7 @@ function Sidebar() {
             <motion.div className="relative bg-red-600 h-150 w-120 rounded-lg shadow-lg flex flex-col">
                 <div className="absolute bg-black h-150 w-60 rounded-r-2xl">
                     <button
-                        className="absolute left-48 top-2 bg-white border border-neutral-400 p-2 rounded-full cursor-pointer"
+                        className="absolute left-48 top-2 hover:scale-110 duration-100 bg-white border border-neutral-400 p-2 rounded-full cursor-pointer"
                         onClick={()=>setOpen(!open)}
                     ><ArrowBigRight /> </button>
                     <AnimatePresence>
@@ -49,7 +49,7 @@ function Sidebar() {
                                 initial="hidden"
                                 animate="show"
                                 exit="hidden"
-                                className="flex flex-col p-4 m-4 gap-20 text-xl">
+                                className="flex flex-col p-4 m-4 gap-5 sm:gap-10 text-xl">
                                 {
                                     links.map((link,i)=>(
                                         <motion.a
@@ -57,7 +57,7 @@ function Sidebar() {
                                             key={i}
                                             whileTap={{}}
                                             href={link.href}
-                                            className="text-blue-500 bg-blue-800/30 border border-blue-400 p-3 text-center rounded-2xl mt-4"
+                                            className="text-blue-500 bg-blue-800/30 border border-blue-400 p-3 text-center rounded-2xl mt-8"
                                         >
                                             {link.label}
                                         </motion.a>

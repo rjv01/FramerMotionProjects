@@ -36,7 +36,7 @@ function Home() {
   }
   return (
     <div className="min-h-screen flex flex-col items-center bg-neutral-900">
-      <h1 className="text-4xl text-green-400 m-6">
+      <h1 className="text-4xl text-green-400 m-6 text-center">
         Welcome to the Home Page
       </h1>
 
@@ -45,7 +45,7 @@ function Home() {
         initial="hidden"
         animate="show"
         exit="hidden"
-        className="font-mono grid grid-cols-3 gap-10 m-6 text-white text-2xl"
+        className="font-mono grid sm:grid-cols-3 gap-10 m-6 text-white text-2xl"
       >
         {links.map((link, i) => (
           <motion.a
