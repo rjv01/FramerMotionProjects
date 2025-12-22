@@ -7,7 +7,7 @@ function Home() {
     { href: "/sidebar", label: "Sidebar Component" },
     { href: "/counter", label: "Counter Component" },
     { href: "/sidebar", label: "Sidebar Component" },
-    { href: "/sidebar", label: "Sidebar Component" },
+    { href: "/scroll", label: "Scroll Component" },
     { href: "/sidebar", label: "Sidebar Component" },
     { href: "/sidebar", label: "Sidebar Component" },
     { href: "/sidebar", label: "Sidebar Component" },

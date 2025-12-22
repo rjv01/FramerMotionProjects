@@ -5,6 +5,8 @@ import Sidebar from "./components/Sidebar"
 
 import { Routes,Route } from "react-router-dom"
 import Counter from "./components/Counter"
+import Scroll from "./components/Scroll";
+
 function App() {
   return (
     <div>
@@ -14,6 +16,7 @@ function App() {
         <Route path="/Card" element={<Card />} />
         <Route path="/sidebar" element={<Sidebar />} />
         <Route path="/counter" element={<Counter />} />
+        <Route path="/scroll" element={<Scroll />} />
       </Routes>
     </div>
   )
