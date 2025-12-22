@@ -4,6 +4,7 @@ import Subscribe from "./components/Subscribe"
 import Sidebar from "./components/Sidebar"
 
 import { Routes,Route } from "react-router-dom"
+import Counter from "./components/Counter"
 function App() {
   return (
     <div>
@@ -12,6 +13,7 @@ function App() {
         <Route path="/subscribe" element={<Subscribe />} />
         <Route path="/Card" element={<Card />} />
         <Route path="/sidebar" element={<Sidebar />} />
+        <Route path="/counter" element={<Counter />} />
       </Routes>
     </div>
   )
