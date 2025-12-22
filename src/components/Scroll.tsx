@@ -26,64 +26,64 @@ function Scroll() {
     const features:Feature[] = [
         {
             icon:<IconRocket className="w-8 h-8 text-neutral-200" />,
-            title:"General Performance",
+            title:"Emilia Clarke",
             description:"Framer Motion is built for performance from the ground up. It leverages the power of the Framer library to ensure smooth animations and interactions.",
             content:(
                 <div>
                     <img 
-                        src="/tripti.jpeg" 
+                        src="/emilia.png" 
                         alt="img"
                         height={500}
                         width={500}
-                        className="rounded-lg"
+                        className="rounded-full"
                     />
                 </div>
             ),
         },
         {
             icon:<IconRocket className="w-8 h-8 text-neutral-200" />,
-            title:"General Performance",
+            title:"Alia Bhatt",
             description:"Framer Motion is built for performance from the ground up. It leverages the power of the Framer library to ensure smooth animations and interactions.",
             content:(
                 <div>
                     <img 
-                        src="/tripti.jpeg" 
+                        src="/alia.webp" 
                         alt="img"
                         height={500}
                         width={500}
-                        className="rounded-lg"
+                        className="rounded-full"
                     />
                 </div>
             ),
         },
         {
             icon:<IconRocket className="w-8 h-8 text-neutral-200" />,
-            title:"General Performance",
+            title:"Kiara Advani",
             description:"Framer Motion is built for performance from the ground up. It leverages the power of the Framer library to ensure smooth animations and interactions.",
             content:(
                 <div>
                     <img 
-                        src="/tripti.jpeg" 
+                        src="/kiara.webp" 
                         alt="img"
-                        height={500}
-                        width={500}
-                        className="rounded-lg"
+                        height={350}
+                        width={350}
+                        className="rounded-full"
                     />
                 </div>
             ),
         },
         {
             icon:<IconRocket className="w-8 h-8 text-neutral-200" />,
-            title:"General Performance",
+            title:"Tripti Dimri",
             description:"Framer Motion is built for performance from the ground up. It leverages the power of the Framer library to ensure smooth animations and interactions.",
             content:(
                 <div>
                     <img 
-                        src="/tripti.jpeg" 
+                        src="/tripti1.webp" 
                         alt="img"
                         height={500}
-                        width={500}
-                        className="rounded-lg"
+                        width={400}
+                        className="rounded-full"
                     />
                 </div>
             ),
