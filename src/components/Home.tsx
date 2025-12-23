@@ -8,7 +8,7 @@ function Home() {
     { href: "/counter", label: "Counter Component" },
     { href: "/sidebar", label: "Sidebar Component" },
     { href: "/scroll", label: "Scroll Component" },
-    { href: "/sidebar", label: "Sidebar Component" },
+    { href: "/layoutcard", label: "Card Layout Component" },
     { href: "/sidebar", label: "Sidebar Component" },
     { href: "/sidebar", label: "Sidebar Component" },
   ];
