@@ -9,7 +9,7 @@ function Home() {
     { href: "/sidebar", label: "Sidebar Component" },
     { href: "/scroll", label: "Scroll Component" },
     { href: "/layoutcard", label: "Card Layout Component" },
-    { href: "/sidebar", label: "Sidebar Component" },
+    { href: "/navbar", label: "Navbar Component" },
     { href: "/sidebar", label: "Sidebar Component" },
   ];
 

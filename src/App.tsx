@@ -7,6 +7,7 @@ import { Routes,Route } from "react-router-dom"
 import Counter from "./components/Counter"
 import Scroll from "./components/Scroll";
 import CardLayout from "./components/CardLayout";
+import Navbar from "./components/Navbar"
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/counter" element={<Counter />} />
         <Route path="/scroll" element={<Scroll />} />
         <Route path="/layoutcard" element={<CardLayout />} />
+        <Route path="/navbar" element={<Navbar />} />
       </Routes>
     </div>
   )
