@@ -32,71 +32,154 @@ function CardLayout() {
         ctaLink:string,
         context:()=>React.ReactNode
     }
-    const cards:Card[] =[
+    // const cards:Card[] =[
+    //     {
+    //         description:"This is card 1",
+    //         title:"Card 1",
+    //         src:"/alia.webp",
+    //         bgcolor:"bg-red-400/50",
+    //         ctaText:"Play",
+    //         ctaLink:"/card1",
+    //         context:()=> (
+    //             <>
+    //             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime nostrum qui cupiditate est sapiente voluptatum, saepe earum incidunt quod tempore provident sed commodi soluta eum dolor! Earum cum ea numquam.
+    //             </>
+    //         )
+    //     },
+    //     {
+    //         description:"This is card 2",
+    //         title:"Card 2",
+    //         src:"/kiara.webp",
+    //         bgcolor:"bg-blue-400/50",
+    //         ctaText:"Play",
+    //         ctaLink:"/card2",
+    //         context:()=> (
+    //             <>
+    //             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime nostrum qui cupiditate est sapiente voluptatum, saepe earum incidunt quod tempore provident sed commodi soluta eum dolor! Earum cum ea numquam.
+    //             </>
+    //         )
+    //     },
+    //     {
+    //         description:"This is card 3",
+    //         title:"Card 3",
+    //         src:"/tripti.jpeg",
+    //         bgcolor:"bg-purple-400/50",
+    //         ctaText:"Play",
+    //         ctaLink:"/card3",
+    //         context:()=> (
+    //             <>
+    //             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime nostrum qui cupiditate est sapiente voluptatum, saepe earum incidunt quod tempore provident sed commodi soluta eum dolor! Earum cum ea numquam.
+    //             </>
+    //         )
+    //     },
+    //     {
+    //         description:"This is card 4",
+    //         title:"Card 4",
+    //         src:"/emilia.png",
+    //         bgcolor:"bg-yellow-400/50",
+    //         ctaText:"Play",
+    //         ctaLink:"/card4",
+    //         context:()=> (
+    //             <>
+    //             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime nostrum qui cupiditate est sapiente voluptatum, saepe earum incidunt quod tempore provident sed commodi soluta eum dolor! Earum cum ea numquam.
+    //             </>
+    //         )
+    //     },
+    //     {
+    //         description:"This is card 5",
+    //         title:"Card 5",
+    //         src:"/tamanna.webp",
+    //         bgcolor:"bg-green-400/50",
+    //         ctaText:"Play",
+    //         ctaLink:"/card5",
+    //         context:()=> (
+    //             <>
+    //             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime nostrum qui cupiditate est sapiente voluptatum, saepe earum incidunt quod tempore provident sed commodi soluta eum dolor! Earum cum ea numquam.
+    //             </>
+    //         )
+    //     },
+    // ];
+    const cards: Card[] = [
         {
-            description:"This is card 1",
-            title:"Card 1",
-            src:"/alia.webp",
-            bgcolor:"bg-red-400",
-            ctaText:"Play",
-            ctaLink:"/card1",
-            context:()=> (
-                <>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime nostrum qui cupiditate est sapiente voluptatum, saepe earum incidunt quod tempore provident sed commodi soluta eum dolor! Earum cum ea numquam.
-                </>
-            )
+            title: "Alia Bhatt",
+            description: "Award-winning Indian actress known for versatile roles.",
+            src: "/alia.webp",
+            bgcolor: "bg-red-400/50",
+            ctaText: "Play",
+            ctaLink: "/card1",
+            context: () => (
+            <>
+                is one of the most successful actresses
+                of modern Indian cinema. She is known for her performances in both
+                commercial blockbusters and critically acclaimed films, showcasing
+                exceptional emotional range and screen presence.
+            </>
+            ),
         },
+
         {
-            description:"This is card 2",
-            title:"Card 2",
-            src:"/kiara.webp",
-            bgcolor:"red",
-            ctaText:"Play",
-            ctaLink:"/card2",
-            context:()=> (
-                <>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime nostrum qui cupiditate est sapiente voluptatum, saepe earum incidunt quod tempore provident sed commodi soluta eum dolor! Earum cum ea numquam.
-                </>
-            )
+            title: "Kiara Advani",
+            description: "Popular Bollywood actress with strong screen appeal.",
+            src: "/kiara.webp",
+            bgcolor: "bg-blue-400/50",
+            ctaText: "Play",
+            ctaLink: "/card2",
+            context: () => (
+            <>
+                rose to fame with her charming
+                performances and relatable characters. She is admired for her elegance,
+                expressive acting, and consistent presence in successful mainstream films.
+            </>
+            ),
         },
+
         {
-            description:"This is card 3",
-            title:"Card 3",
-            src:"/kiara.webp",
-            bgcolor:"red",
-            ctaText:"Play",
-            ctaLink:"/card3",
-            context:()=> (
-                <>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime nostrum qui cupiditate est sapiente voluptatum, saepe earum incidunt quod tempore provident sed commodi soluta eum dolor! Earum cum ea numquam.
-                </>
-            )
+            title: "Tripti Dimri",
+            description: "Critically acclaimed actress known for intense roles.",
+            src: "/tripti1.webp",
+            bgcolor: "bg-purple-400/50",
+            ctaText: "Play",
+            ctaLink: "/card3",
+            context: () => (
+            <>
+                is celebrated for her powerful
+                performances in content-driven cinema. She is known for choosing strong,
+                unconventional roles that leave a lasting impact on audiences.
+            </>
+            ),
         },
+
         {
-            description:"This is card 4",
-            title:"Card 4",
-            src:"/kiara.webp",
-            bgcolor:"red",
-            ctaText:"Play",
-            ctaLink:"/card4",
-            context:()=> (
-                <>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime nostrum qui cupiditate est sapiente voluptatum, saepe earum incidunt quod tempore provident sed commodi soluta eum dolor! Earum cum ea numquam.
-                </>
-            )
+            title: "Emilia Clarke",
+            description: "International actress famous for iconic TV roles.",
+            src: "/emilia.png",
+            bgcolor: "bg-yellow-400/50",
+            ctaText: "Play",
+            ctaLink: "/card4",
+            context: () => (
+            <>
+                gained worldwide recognition
+                for her iconic television performances. She is admired for her charisma,
+                emotional depth, and ability to portray strong, memorable characters.
+            </>
+            ),
         },
+
         {
-            description:"This is card 5",
-            title:"Card 5",
-            src:"/kiara.webp",
-            bgcolor:"red",
-            ctaText:"Play",
-            ctaLink:"/card5",
-            context:()=> (
-                <>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime nostrum qui cupiditate est sapiente voluptatum, saepe earum incidunt quod tempore provident sed commodi soluta eum dolor! Earum cum ea numquam.
-                </>
-            )
+            title: "Tamannaah Bhatia",
+            description: "Pan-Indian actress with a strong South cinema presence.",
+            src: "/tamanna.webp",
+            bgcolor: "bg-green-400/50",
+            ctaText: "Play",
+            ctaLink: "/card5",
+            context: () => (
+            <>
+                has established herself across
+                multiple film industries in India. She is known for her versatility,
+                graceful screen presence, and long-standing career in both commercial
+                and performance-oriented cinema.
+            </>
+            ),
         },
     ];
 
@@ -115,7 +198,7 @@ function CardLayout() {
                                 animate={{
                                     opacity:1
                                 }}
-                                className="fixed z-10 h-full w-full inset-0 bg-red-500/50 backdrop-blur-sm"
+                                className={`fixed z-10 h-full w-full inset-0 ${current.bgcolor} backdrop-blur-sm`}
                             ></motion.div>
             }
             {
@@ -123,51 +206,54 @@ function CardLayout() {
                     <motion.div
                         layoutId={`card-${current.title}`}
                         ref={ref}
-                        className={`h-120 w-60 sm:h-150 sm:w-82 fixed inset-0 z-20 m-auto ${current.bgcolor ?? "bg-gray-200"} rounded-2xl border border-neutral-200 p-4`}>
+                        className="sm:flex flex-col sm:flex-row h-140 w-60 sm:h-150 sm:w-150 fixed inset-0 z-20 m-auto bg-white rounded-2xl border border-neutral-200 py-4 sm:p-4">
                         <motion.img
                             layoutId={`card-image-${current.title}`}
                             src={current.src} 
                             alt={current.title}
-                            className="w-full aspect-square rounded-2xl"
+                            className="sm:max-w-2xl mx-auto sm:object-contain h-50 w-40 sm:ml-2 ml-10 sm:h-140 sm:w-60 rounded-2xl mr-4"
                         />
-                        <div className="flex flex-col justify-between items-start">
-                            <div className="flex item-start justify-between py-4 w-full gap-2">
-                                <div className="flex flex-col item-start gap-2">
-                                    <motion.h2
-                                        layoutId={`card-tite-${current.title}`}
-                                        className="font-bold text-xs tracking-tight text-black"
-                                    >{current.title}</motion.h2>
-                                    <motion.p
-                                        layoutId={`card-description-${current.title}`}
-                                        className="text-[10px] text-neutral-500"
-                                    >{current.description}</motion.p>
+                        <div className="flex flex-col justify-between items-start p-2 ">
+                            <div className="flex flex-col item-start justify-between py-4 w-full ">
+                                <div className="flex justify-between sm:border sm:border-neutral-200 rounded-2xl px-4 sm:p-4 item-start gap-2 ">
+                                    <div className="flex flex-col gap-2 ">
+                                        <motion.h2
+                                            layoutId={`card-tite-${current.title}`}
+                                            className="font-bold sm:text-2xl text-md tracking-tight text-black"
+                                        >{current.title}</motion.h2>
+                                        <motion.p
+                                            layoutId={`card-description-${current.title}`}
+                                            className="sm:text-md text-xs text-neutral-500 italic"
+                                        >{current.description}</motion.p>
+                                    </div>
+                                    <motion.div
+                                        layoutId={`card-cta${current.title}`}
+                                    >
+                                        <Link 
+                                            href={current.ctaLink}
+                                            className="px-1.5 py-1 bg-green-500 rounded-full text-white text-xs"
+                                        >
+                                            {current.ctaText}
+                                        </Link>
+                                    </motion.div>
                                 </div>
                                 <motion.div
-                                    layoutId={`card-cta${current.title}`}
+                                    initial={{
+                                        filter:"blur(10px)",
+                                        opacity:0
+                                    }}
+                                    animate={{
+                                        filter:"blur(0px)",
+                                        opacity:1
+                                    }}
+                                    transition={{
+                                        delay:0.3
+                                    }}
+                                    className="p-4 sm:mt-6 overflow-auto"
                                 >
-                                    <Link 
-                                        href={current.ctaLink}
-                                        className="px-2 py-1 bg-green-500 rounded-full text-white text-xs"
-                                    >
-                                        {current.ctaText}
-                                    </Link>
+                                    <p className=" sm:text-xl text-sm font-mono ">{current.context()}</p>
                                 </motion.div>
                             </div>
-                            <motion.div
-                                initial={{
-                                    filter:"blur(10px)",
-                                    opacity:0
-                                }}
-                                animate={{
-                                    filter:"blur(0px)",
-                                    opacity:1
-                                }}
-                                transition={{
-                                    delay:0.3
-                                }}
-                            >
-                                <p className="h-40 overflow-auto">{current.context()}</p>
-                            </motion.div>
                         </div>
                     </motion.div>
                 )
@@ -195,7 +281,7 @@ function CardLayout() {
                                 >{card.title}</motion.h2>
                                 <motion.p
                                     layoutId={`card-description-${card.title}`}
-                                    className="text-xs text-neutral-500"
+                                    className="text-xs text-neutral-500 text-left"
                                 >{card.description}</motion.p>
                             </div>
                         </div>
