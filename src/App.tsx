@@ -9,7 +9,7 @@ import Scroll from "./components/Scroll";
 import CardLayout from "./components/CardLayout";
 import Navbar from "./components/Navbar"
 import AnimateText from "./components/AnimateText"
-import SuccessButton from "./components/successbutton"
+import SuccessButton1 from "./components/SuccessButton1"
 
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
         <Route path="/layoutcard" element={<CardLayout />} />
         <Route path="/navbar" element={<Navbar />} />
         <Route path="/animatetext" element={<AnimateText />} />
-        <Route path="/successbutton" element={<SuccessButton />} />
+        <Route path="/successbutton" element={<SuccessButton1 />} />
       </Routes>
     </div>
   )
