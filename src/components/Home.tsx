@@ -11,6 +11,7 @@ function Home() {
     { href: "/layoutcard", label: "Card Layout Component" },
     { href: "/navbar", label: "Navbar Component" },
     { href: "/animatetext", label: "Animate Text Component" },
+    { href: "/successbutton", label: "Success Button Component" },
   ];
 
   const containerVariants = {

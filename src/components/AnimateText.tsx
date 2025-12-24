@@ -1,4 +1,4 @@
-import { useAnimate,motion, easeInOut, stagger } from "framer-motion";
+import { useAnimate,motion, stagger } from "framer-motion";
 import { useEffect } from "react";
 function AnimateText() {
     const [scope,animate] = useAnimate();
