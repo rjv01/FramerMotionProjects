@@ -8,6 +8,7 @@ import Counter from "./components/Counter"
 import Scroll from "./components/Scroll";
 import CardLayout from "./components/CardLayout";
 import Navbar from "./components/Navbar"
+import AnimateText from "./components/AnimateText"
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/scroll" element={<Scroll />} />
         <Route path="/layoutcard" element={<CardLayout />} />
         <Route path="/navbar" element={<Navbar />} />
+        <Route path="/animatetext" element={<AnimateText />} />
       </Routes>
     </div>
   )

@@ -10,7 +10,7 @@ function Home() {
     { href: "/scroll", label: "Scroll Component" },
     { href: "/layoutcard", label: "Card Layout Component" },
     { href: "/navbar", label: "Navbar Component" },
-    { href: "/sidebar", label: "Sidebar Component" },
+    { href: "/animatetext", label: "Animate Text Component" },
   ];
 
   const containerVariants = {
