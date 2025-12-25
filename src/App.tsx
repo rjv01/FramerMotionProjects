@@ -11,6 +11,9 @@ import Navbar from "./components/Navbar"
 import AnimateText from "./components/AnimateText"
 import SuccessButton1 from "./components/SuccessButton1"
 import HorizontalScrollCarousel from "./components/HorizontalScrollCarousel"
+import WhileInView from "./components/WhileInView"
+import UseInView from "./components/UseInView"
+import ScrollProgress from "./components/ScrollProgress"
 
 function App() {
   return (
@@ -27,6 +30,9 @@ function App() {
         <Route path="/animatetext" element={<AnimateText />} />
         <Route path="/successbutton" element={<SuccessButton1 />} />
         <Route path="/horizontalscrollcarousel" element={<HorizontalScrollCarousel />} />
+        <Route path="/whileinview" element={<WhileInView />} />
+        <Route path="/useinview" element={<UseInView />} />
+        <Route path="/scrollprogress" element={<ScrollProgress />} />
       </Routes>
     </div>
   )

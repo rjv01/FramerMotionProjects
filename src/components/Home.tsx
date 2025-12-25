@@ -13,6 +13,9 @@ function Home() {
     { href: "/animatetext", label: "Animate Text Component" },
     { href: "/successbutton", label: "Success Button Component" },
     { href: "/horizontalscrollcarousel", label: "Horizontal Scroll Carousel" },
+    { href: "/whileinview", label: "While in View" },
+    { href: "/useinview", label: "Use In View" },
+    { href: "/scrollprogress", label: "Scroll Progress" },
   ];
 
   const containerVariants = {
