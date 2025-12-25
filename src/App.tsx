@@ -10,6 +10,7 @@ import CardLayout from "./components/CardLayout";
 import Navbar from "./components/Navbar"
 import AnimateText from "./components/AnimateText"
 import SuccessButton1 from "./components/SuccessButton1"
+import HorizontalScrollCarousel from "./components/HorizontalScrollCarousel"
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/navbar" element={<Navbar />} />
         <Route path="/animatetext" element={<AnimateText />} />
         <Route path="/successbutton" element={<SuccessButton1 />} />
+        <Route path="/horizontalscrollcarousel" element={<HorizontalScrollCarousel />} />
       </Routes>
     </div>
   )

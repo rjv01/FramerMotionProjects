@@ -12,6 +12,7 @@ function Home() {
     { href: "/navbar", label: "Navbar Component" },
     { href: "/animatetext", label: "Animate Text Component" },
     { href: "/successbutton", label: "Success Button Component" },
+    { href: "/horizontalscrollcarousel", label: "Horizontal Scroll Carousel" },
   ];
 
   const containerVariants = {
